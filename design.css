@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 40, 49);
+    }
+/* the start of the cover thing */
+
+.texts {
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    
+}
+.shadowing {
+    box-shadow: inset 0px 0px 10px 10px rgba(34,40,49,0.7);
+    background-image: url("classpic.jpg");
+    background-size: cover;
+
+    height: 200px;
+    width: 100%;
+}
+/* the end of the cover thing (index.html) */
+
+
+/* this is the start of the box thing   */
+#moviec {
+    margin: 0 auto;
+    background-color: rgb(49, 54, 63);
+    width: 255px;
+    height: 500px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 1px 2px rgba(238, 238, 238, 0.815); */
+    
+}
+
+.moviep {
+    background-image: url("Movieposter.jpg");
+    background-size: cover;
+    padding: 49px 0;
+    height: 395px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.wtb {
+    display: flex;
+    justify-content: center;
+    margin: 350px 0;
+    padding: 16px 49px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: maroon;
+    text-align: center;
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wtb:onclick {
+    display: flex;
+    justify-content: center;
+    margin: 300px 0;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: maroon;
+    background-color: white;
+}
+/* 
+.moviet {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 210px 0;
+    font-weight: bold;
+   }
+    */
+  /* end  of the box thing  */
+
+.arr-c {
+    background-color: white;
+    height: 100px;
+}
+
+.arr-c p{
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.text-c {
+	background-color: white;
+    color: black;
+    padding: 50px 0 10px 0;
+    text-align: center;
+}
+
+/* .vframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
+.wmb a {
+    display: flex;
+    justify-content: center;
+    margin: 150x 0;
+    padding: 10px 0;
+    text-decoration: none !important;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: maroon;
+    border-radius: 10px;
+}
+
+.movie-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0 0 5px;
+    font-weight: bolder;
+    color: white;
+}
+
+.label-movie {
+    font-size: smaller;
+    color: white;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin: 0 0 15px 8px;
+
+}
+
+.label-movie #age-thing{
+    background-color: gray;
+    border-radius: 3px;
+}
+
+.background-of-desc {
+    background-color: rgb(49, 54, 63);
+    border-radius: 10px;
+    margin: 0 4px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-thing {
+    margin: 10px 0 6px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.cast-box-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cast-box {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 100px;
+    background-color: slategray;
+    box-shadow: 0 0 1px 2px rgba(238, 238, 238, 0.815);
+    border-radius: 10px;
+    
+}
+
+.cast-box-o {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 100px;
+    margin-left: 150px;
+    background-color: slategray;
+    box-shadow: 0 0 1px 2px rgba(238, 238, 238, 0.815);
+    border-radius: 10px;
+    
+}
+
+.cast-name {
+    padding: 100px 0;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cast-picture-o {
+    height: 100px;
+    width: 100px;
+    
+    background-image: url("https://i.pinimg.com/originals/d8/97/5d/d8975d459b539178b6d5d97fe429ab5b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.cast-picture {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://i.pinimg.com/originals/d8/97/5d/d8975d459b539178b6d5d97fe429ab5b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.new-cast {
+    color: white;
+
+    padding: 2px 0;
+    
+    margin: 0 0 70px 4px;
+}
