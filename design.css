@@ -237,3 +237,7 @@ body {
 .desc-movie {
     padding: 3px 10px;
 }
+
+.new-cast p {
+	display: inline;	
+}
