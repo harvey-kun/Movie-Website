@@ -137,13 +137,14 @@ body {
     display: flex;
     justify-content: left;
     gap: 5px;
-    margin: 0 0 15px 8px;
+    margin: 0 0 15px 15px;
 
 }
 
 .label-movie #age-thing{
     background-color: gray;
     border-radius: 3px;
+    padding: 0.08px 1px;
 }
 
 .background-of-desc {
@@ -224,8 +225,15 @@ body {
 
 .new-cast {
     color: white;
-
-    padding: 2px 0;
-    
-    margin: 0 0 70px 4px;
+    padding: 3px 10px;
+}
+.background-of-desc-new {
+    background-color: rgb(49, 54, 63);
+    border-radius: 10px;
+    margin: 0 200px 0 4px;  
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc-movie {
+    padding: 3px 10px;
 }
