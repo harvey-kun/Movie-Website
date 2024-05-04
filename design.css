@@ -30,7 +30,7 @@ body {
 /* this is the start of the box thing   */
 #moviec {
     margin: 0 auto;
-    background-color: rgb(49, 54, 63);
+    /* background-color: rgb(49, 54, 63); */
     width: 255px;
     height: 500px;
     border-radius: 10px;
