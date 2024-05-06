@@ -41,6 +41,7 @@ body {
 .moviep {
     background-image: url("Movieposter.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 49px 0;
     height: 395px;
     width: 270px;
